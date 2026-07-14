@@ -1,8 +1,0 @@
-blank_issues_enabled: false
-contact_links:
-  - name: Публичная дорожная карта
-    url: https://github.com/SHIZOSHAZIA/narve-public/blob/main/ROADMAP.md
-    about: Проверьте, не запланирована ли функция уже сейчас.
-  - name: FAQ
-    url: https://github.com/SHIZOSHAZIA/narve-public/blob/main/docs/FAQ.md
-    about: Ответы на частые вопросы о NARVE.
