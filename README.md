@@ -59,13 +59,12 @@ graph TD;
         UI <--> LocalLLM["🤖 Local LLM (LM Studio / Ollama)"]
         
         Identity <--> MemoryManager["💾 Memory Manager"]
-        MemoryManager -->|"Векторный поиск"| VectorDB[("Векторная БД (SQLite/EF Core)")]
+        MemoryManager -->|"Векторный поиск"| VectorDB["🗄️ Векторная БД (SQLite/EF Core)"]
         
         Identity <--> Senses["👁️ Senses (TTS, STT, Vision)"]
         Senses -->|"Копирование голоса"| VoiceModels["🎙️ Open Source Voice (CosyVoice/XTTS)"]
     end
     style CoreEngine fill:transparent,stroke:#666,stroke-width:2px,stroke-dasharray: 5 5
-    style VectorDB fill:#1a1a1a,stroke:#666,color:#ffffff
     
     UI -->|"Интеграция с ОС"| OS["🪟 Windows (Трей, Хоткеи)"]
 ```
